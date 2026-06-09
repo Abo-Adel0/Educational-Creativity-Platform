@@ -1,0 +1,209 @@
+/* =========================
+   LARGE SCREENS
+========================= */
+
+@media (max-width: 1400px) {
+  .container-custom {
+    max-width: 1200px;
+  }
+}
+
+/* =========================
+   TABLETS
+========================= */
+
+@media (max-width: 992px) {
+  .section-space {
+    padding-block: 70px;
+  }
+
+  h1 {
+    font-size: 2.5rem !important;
+  }
+
+  h2 {
+    font-size: 2rem !important;
+  }
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+  .container-custom {
+    padding-inline: 16px;
+  }
+
+  .section-space {
+    padding-block: 60px;
+  }
+
+  h1 {
+    font-size: 2rem !important;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 1.6rem !important;
+    line-height: 1.5;
+  }
+
+  h3 {
+    font-size: 1.3rem !important;
+  }
+
+  p {
+    font-size: 0.95rem;
+    line-height: 2;
+  }
+
+  .primary-btn {
+    width: 100%;
+
+    padding: 16px 20px;
+
+    font-size: 1rem;
+
+    border-radius: 18px;
+  }
+
+  .glass-card {
+    border-radius: 24px;
+  }
+}
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width: 480px) {
+
+  h1 {
+    font-size: 1.7rem !important;
+  }
+
+  h2 {
+    font-size: 1.4rem !important;
+  }
+
+  h3 {
+    font-size: 1.15rem !important;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  .section-space {
+    padding-block: 50px;
+  }
+
+  .primary-btn {
+    font-size: 0.95rem;
+
+    padding: 15px 18px;
+  }
+
+  .glass-card {
+    padding: 18px !important;
+  }
+}
+
+/* =========================
+   NAVBAR MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+  .desktop-navbar {
+    display: none !important;
+  }
+
+  .mobile-navbar {
+    display: flex !important;
+  }
+}
+
+/* =========================
+   DESKTOP NAVBAR
+========================= */
+
+@media (min-width: 769px) {
+
+  .desktop-navbar {
+    display: flex !important;
+  }
+
+  .mobile-navbar {
+    display: none !important;
+  }
+}
+
+/* =========================
+   GRID RESPONSIVE
+========================= */
+
+@media (max-width: 992px) {
+
+  .grid-3 {
+    grid-template-columns:
+      repeat(2, 1fr) !important;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .grid-3,
+  .grid-2 {
+    grid-template-columns:
+      1fr !important;
+  }
+}
+
+/* =========================
+   DASHBOARD
+========================= */
+
+@media (max-width: 768px) {
+
+  .dashboard-grid {
+    grid-template-columns:
+      1fr !important;
+  }
+
+  .dashboard-sidebar {
+    width: 100% !important;
+  }
+}
+
+/* =========================
+   SIDEBAR
+========================= */
+
+@media (max-width: 768px) {
+
+  .sidebar-menu {
+    width: 85% !important;
+  }
+}
+
+/* =========================
+   HERO SECTION
+========================= */
+
+@media (max-width: 768px) {
+
+  .hero-content {
+    text-align: center;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+  }
+
+  .hero-image {
+    margin-top: 40px;
+  }
+}
